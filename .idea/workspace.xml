@@ -4,27 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29cc08c7-3ba4-4541-8e93-1ba988619da5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Dictionary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urban/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urban/templates/urban/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urban/urls.py" afterDir="false" />
+    <list default="true" id="29cc08c7-3ba4-4541-8e93-1ba988619da5" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/urban/static/css/home_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urban/static/css/submit_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urban/templates/urban/submit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urban/templates/urban/updatewords.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urban/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/urban/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urban/templates/urban/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/urban/templates/urban/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urban/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urban/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,9 +32,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pranish-k&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pranish-k/Dictionary.git&quot;,
+    &quot;accountId&quot;: &quot;a26dd829-835b-4d78-8d7c-132cb9cdcd2b&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jyvFN2r9ntrIcQR05bUIheCSTA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,20 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/urban" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Dictionary" type="Python.DjangoServer" factoryName="Django server">
       <module name="Dictionary" />
@@ -103,11 +121,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722372026202</updated>
-      <workItem from="1722372043646" duration="6880000" />
+      <workItem from="1722372043646" duration="14101000" />
+      <workItem from="1722452904359" duration="4887000" />
+      <workItem from="1723063253262" duration="462000" />
+      <workItem from="1723063718316" duration="99000" />
+      <workItem from="1723063818944" duration="11000" />
+      <workItem from="1723063832299" duration="2636000" />
+      <workItem from="1723098578867" duration="1107000" />
+      <workItem from="1723136429542" duration="2545000" />
+      <workItem from="1723407693606" duration="177000" />
+      <workItem from="1723407939601" duration="8117000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1722443487782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722443487782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
