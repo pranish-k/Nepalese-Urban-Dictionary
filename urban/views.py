@@ -1,7 +1,9 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 from .models import *
 from .forms import *
+
+
 
 # Create your views here.
 
@@ -23,3 +25,14 @@ def submit(request):
 def update(request, pk):
     word = Word.objects.get(id=pk)
     return render(request, 'urban/updatewords.html')
+
+def search(request):
+    query = request.GET.get('q', '')
+    words = Word.objects.filter(title__contains=query)
+    context = {'words': words, 'query': query}
+    return render(request,'urban/search.html')
+
+def define_word(request, word_title):
+    word = get_object_or_404(Word, title=word_title)
+    context = {'word':word}
+    return render(request, 'urban/define_word.html')
