@@ -15,3 +15,7 @@ class WordForm(forms.ModelForm):
             'meaning': forms.Textarea(attrs={'class': 'meaning-field', 'id': 'word-meaning', 'rows': 2}),
             'sentence': forms.Textarea(attrs={'class': 'sentence-field', 'id': 'word-sentence', 'rows': 3}),
         }
+
+
+class SearchForm(forms.Form):
+    query = forms.CharField(label='Search', max_length=200)

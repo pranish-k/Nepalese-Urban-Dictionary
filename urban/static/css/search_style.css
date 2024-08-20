@@ -1,0 +1,20 @@
+/* Random Word Container Styles */
+.random-word-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.random-word-container .word-title {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.random-word-container .word-meaning {
+    margin-bottom: 10px;
+}
+
+.random-word-container .word-sentence {
+    font-style: italic;
+}
