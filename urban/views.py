@@ -1,11 +1,12 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import *
+import random
 
 
-def index(request):
+def all_words(request):
     words = Word.objects.all()
     context = {'words': words}
-    return render(request, 'urban/home.html', context)
+    return render(request, 'urban/all_words.html', context)
 
 
 def submit(request):
@@ -21,14 +22,23 @@ def submit(request):
 
 def search(request):
     form = SearchForm()
+    context = {'form': form}  # Initialize context with form
+
     if request.method == 'POST':
         form = SearchForm(request.POST)
+        print("Form is submitted")
         if form.is_valid():
+            print("Form is valid")
             query = form.cleaned_data['query']
             words = Word.objects.filter(title__icontains=query)
-            context = {'words': words, 'query': query}
-            return render(request, 'urban/search.html', context)
-    context = {'form': form}
+            context.update({'words': words, 'query': query})  # Update context with search results
+        else:
+            print("Form is not valid")
+    else:
+        # Get a random word from the database
+        random_word = random.choice(Word.objects.all())
+        context.update({'random_word': random_word})  # Update context with random word
+
     return render(request, 'urban/search.html', context)
 
 

@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29cc08c7-3ba4-4541-8e93-1ba988619da5" name="Changes" comment="search initiated">
-      <change afterPath="$PROJECT_DIR$/urban/static/css/Define_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urban/static/css/search_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urban/templates/urban/define.html" afterDir="false" />
+    <list default="true" id="29cc08c7-3ba4-4541-8e93-1ba988619da5" name="Changes" comment="Search and define feature added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urban/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/urban/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urban/templates/urban/define_word.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/urban/static/css/Define_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/urban/static/css/define_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urban/static/css/search_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/urban/static/css/search_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urban/templates/urban/define.html" beforeDir="false" afterPath="$PROJECT_DIR$/urban/templates/urban/define.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urban/templates/urban/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/urban/templates/urban/all_words.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urban/templates/urban/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/urban/templates/urban/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urban/templates/urban/updatewords.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/urban/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urban/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urban/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/urban/views.py" afterDir="false" />
     </list>
@@ -148,7 +145,7 @@
       <workItem from="1723407939601" duration="9802000" />
       <workItem from="1723641878665" duration="4169000" />
       <workItem from="1723793856702" duration="9500000" />
-      <workItem from="1724072890145" duration="4181000" />
+      <workItem from="1724072890145" duration="14730000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -182,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724022034119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Search and define feature added">
+      <option name="closed" value="true" />
+      <created>1724178815698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724178815698</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="basic layout completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic layout completed" />
+    <MESSAGE value="Search and define feature added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search and define feature added" />
   </component>
 </project>
