@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import *
 import random
+import requests
+
 
 
 def all_words(request):
@@ -47,3 +49,6 @@ def define(request, word_slug):
     word = get_object_or_404(Word, title__iexact=word_title)
     context = {'word': word}
     return render(request, 'urban/define.html', context)
+
+def chatbot(request):
+    return render(request, 'urban/chatbot.html')
